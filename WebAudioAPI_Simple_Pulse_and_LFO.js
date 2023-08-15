@@ -19,7 +19,7 @@ amp.gain.value = 0.3;
 
 lfo.type = "sine";
 lfo.start();
-lfo.frequency.setValueAtTime(250,audioCtx.currentTime);
+lfo.frequency.setValueAtTime(3,audioCtx.currentTime);
 lfo.connect(amp);
 amp.connect(gain.gain);
 
